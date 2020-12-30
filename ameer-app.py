@@ -1,9 +1,9 @@
 # Short code
 import tweepy
-consumer_key = 'kg5MaWSyuM2yKcJuXmjrq7eCk'
-consumer_secret = 'XHcELNRB1qr2ZXouiBcQWyz95C8RY0WK9tt4Npn5YGEtNqvYcV'
-access_token = '1297164703110582274-HRFFBP4VNHSNss4u0npVcOYwpVBf6J'
-secret_access_token = 'GgibeHs5ntOovfWFJOHuG9e88CnzNp7wSYqVCr6qyuTJO'
+consumer_key = '6ywz7k7gwFrT5btrcAodOlwBa'
+consumer_secret = 'ch34ohAxW6tHgZWPAKlDr3FOH5e7NhjL4KByJ5hm5e1GRYCCJT'
+access_token = '1339936871091081221-3IXURJ1G0HpLzoMijGqVQMeQoHzJW5'
+secret_access_token = '9g8NIOn5fPKPgTEPQ4TyRRBZm0z0lrH1q8XYueyrrGg0q'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, secret_access_token)
@@ -12,8 +12,8 @@ print('Everything is fine')
 
 import time
 while True:
-  user = api.get_user('Ameen91741779')
+  user = api.get_user('blabla21932776')
   f = user.followers_count
-  api.update_profile(name=f'AMEER {f} Followers')
-  print(f'AMEER {f} Followers')
+  api.update_profile(name=f'bla bla {f} Followers')
+  print(f'bla bla{f} Followers')
   time.sleep(60)
