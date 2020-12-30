@@ -14,4 +14,4 @@ while True: # to make this forever
   follower = user.followers_count
   api.update_profile(name = f'bla bla {follower} followers')
   print(f'bla bla {follower} followers')
-  time.sleep(60) #this process takes 60s to update (limitation) 
+  time.sleep(60)
